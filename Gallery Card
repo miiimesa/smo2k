@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SMO2K Photo Archive</title>
+
+  <!-- Google Font (Prompt) -->
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="assets/logo.png" alt="SMO2K Logo" class="logo">
+      <div class="title">
+        <h1>SMO2K</h1>
+        <p class="subtitle">คลังภาพกิจกรรม — คณะบริหารธุรกิจและการบัญชี ม.ขอนแก่น</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="gallery">
+      <!-- ตัวอย่างการ์ดอัลบั้ม (เพิ่ม/ก็อปไปเรื่อย ๆ สำหรับทุกงาน) -->
+      <a class="album-card" href="albums/wai-kru-2568/">
+        <div class="cover" style="background-image:url('albums/wai-kru-2568/01.jpg')"></div>
+        <div class="meta">
+          <h3>ไหว้ครู 2568</h3>
+          <p>31 กรกฎาคม 2568 • พิธีไหว้ครู</p>
+        </div>
+      </a>
+
+      <!-- สร้างการ์ดเพิ่มได้ตามอัลบั้ม -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© SMO2K — สโมสรนักศึกษาคณะบริหารธุรกิจและการบัญชี</div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
